@@ -5,7 +5,7 @@ Handing all Websites over to the kids, sharing this repo with them for rough wor
 ```bash
 git init
 touch README.md
-touch basic-boilerplate.<!DOCTYPE html>
+touch basic-boilerplate.
 git status
 git add README.md
 ```
