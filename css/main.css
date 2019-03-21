@@ -1,0 +1,41 @@
+/* a div comment this will not be used by the browser 
+https://www.w3schools.com/cssref/css_selectors.asp
+*/
+div { /* this is for all HTML elements that are a DIV*/
+  background-color: #3BB9FF;
+}
+p {
+  font-size: 28px;
+}
+input, form {
+  font-size: 22px;
+}
+.piggy { /* targets class piggy can have lots of class piggy */
+  background-color: #ff78cb;
+  color:  #FFFFFF;
+  font-size: 18px;
+}
+#dave { /* target id dave only one id dave */
+  background-color:  #3BB9FF;
+  font-size: 100px;
+  color: #FFFFFF;
+  width: 250px;
+  border-style: solid;
+  border-color: #990000; 
+  padding: 20px;
+}
+#dave p { /* a p element inside id dave */
+  font-size: 16px;
+}
+
+/*
+change body colour when width is less than or equal to 600px
+*/
+@media only screen and (max-width: 600px) {
+  body {
+    background-color: lightblue;
+  }
+  #dave p {
+    font-size: 12px;
+  }
+}
