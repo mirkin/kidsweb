@@ -9,3 +9,15 @@ touch basic-boilerplate.
 git status
 git add README.md
 ```
+
+Serve localhost:8019
+
+python 3
+```bash
+python -m http.server 8019
+```
+
+python 2
+```bash
+python -m SimpleHTTPServer 8019
+```
