@@ -1,0 +1,77 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <meta name="description" content="Web tutorials for the kids">
+  <meta name="keywords" content="HTML,CSS,JavaScript">
+  <meta name="author" content="John Doe">
+<title>Floating</title>
+<style>
+/*
+p {
+  font-size: 28px;
+}
+*/
+body {
+  font-size: 18px;
+}
+input, form {
+  font-size: 22px;
+}
+.piggy { /* targets class piggy can have lots of class piggy */
+  float: right;
+  background-color: #ff78cb;
+  color:  #FFFFFF;
+  font-size: 18px;
+  width: 9em;
+}
+#dave { /* target id dave only one id dave */
+  float: left;
+  background-color:  #3BB9FF;
+  font-size: 100px;
+  color: #FFFFFF;
+  width: 50%;
+  border-style: solid;
+  border-color: #990000; 
+  padding: 0px;
+}
+#dave p { /* a p element inside id dave */
+  font-size: 16px;
+}
+</style>
+</head>
+<body>
+    <!--
+      HTML comment will not
+      be used by browser 
+    -->
+     <a href="page2.html"><img src="img/home.svg" width="80"></a>
+    <p onclick="myFirstFunction()">Click here</p>
+    <p>Floating left and right and EM PX %</p>
+    <p><a href="https://www.w3schools.com/cssref/css_selectors.asp" target="_blank">CSS selectors</a></p>
+    <div class="piggy">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ea libero, mollitia nemo reiciendis id rerum aliquid harum dolorum, commodi quia dolore? Iure, quod itaque pariatur non dolor ducimus provident fugit.</p>
+    </div>
+    <div id="dave">
+      <p>Lorem ipsum dolor sit amet, iusto doloremque id fuga veritatis et ut provident ab sint reprehenderit, reiciendis quis aliquid quibusdam quos.</p>
+    </div>
+    <div style="background-color: #00ff00;">
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quidem necessitatibus consequatur asperiores laboriosam, tempora placeat minima. Rem ipsa, quibusdam velit atque ullam. Enim unde reprehenderit ducimus incidunt eligendi provident mollitia!</p>
+    </div>
+    <div>
+      <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iure facere unde, id fuga. Accusantium ducimus, itaque cupiditate. Tenetur delectus sunt, iure nisi autem dolore eos dolorem accusamus, quaerat nulla saepe.</p>
+    </div>
+    <div>
+      <form method="get" >
+        First name: <input type="text" name="firstName"><br>
+        Last name: <input type="text" name="lastName"><br>
+        <input type="submit" value="Submit">
+      </form>
+    </div>
+
+
+<script src="js/main.js"></script>
+
+  </body>
+</html>
+
