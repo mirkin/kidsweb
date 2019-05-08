@@ -21,3 +21,8 @@ python 2
 ```bash
 python -m SimpleHTTPServer 8019
 ```
+
+PHP
+```bash
+php -S localhost:8019
+```
